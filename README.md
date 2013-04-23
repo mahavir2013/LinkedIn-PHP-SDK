@@ -7,7 +7,7 @@ You can add you code to implement this code.
 
 
 Example CODE:
-
+[code]
 session_start();
 
 require_once('linkedInAPI.php');
@@ -49,3 +49,4 @@ if($access_token){
 		print "Hello $user->firstName $user->lastName.";
 	}
 }
+[/code]
