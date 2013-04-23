@@ -11,6 +11,7 @@ Example CODE:
 session_start();
 
 require_once('linkedInAPI.php');
+
 // Change these
 define('API_KEY',      'Your Api Key');
 define('API_SECRET',   'Your Secret Key');
@@ -23,7 +24,9 @@ $config = array(
 	'appSecret' => API_SECRET
 );
 
+
 $linkedin = new Linkedin($config);
+
 if(!$linkedin->getUser()){
 	$params = array(
 		'callbackUrl' => CALLBACK_URL,
