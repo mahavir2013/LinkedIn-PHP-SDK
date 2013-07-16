@@ -1,6 +1,6 @@
 LinkedIn-PHP-SDK
 ================
-
+<pre>
 PHP SDK for LinkedIn API
 
 You can add you code to implement this code.
@@ -50,3 +50,4 @@ if($access_token){
 	}
 }
 [/code]
+</pre>
